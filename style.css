@@ -1,0 +1,33 @@
+button{
+	background-color: cyan;
+	width: 80px;
+	height: 44px;
+	text-transform: uppercase;
+	opacity: 1;
+
+}
+button:hover {
+	background-color: 	#00CED1;
+	cursor: pointer;
+	opacity: 0.8;
+	  box-shadow:
+    1px 1px #53ea93,
+    2px 2px #53ea93,
+    3px 3px #53ea93,
+    4px 4px #53ea93,
+    5px 5px #53ea93,
+    6px 6px #53ea93,
+    7px 7px #53ea93;
+
+  	-webkit-transform: translateX(-7px);
+  	transform: translateX(-7px);
+	delay: 2s;
+}
+p:hover {
+	background-color: 	#00CED1;
+
+	cursor: pointer;
+}
+#runButton{
+	position: absolute;
+}
